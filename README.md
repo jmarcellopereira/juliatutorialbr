@@ -34,7 +34,7 @@ Com a conta no JuliaBox.org, faça um clone de todos os notebooks:
 
 > click no ##+## e pronto! todo o conteúdo foi copiado para a pasta juliatutorialbr da sua conta no juliabox.
 
-**2.** Offline
+**3.** Offline
 
 Baixe o instalador no julia.org e instale o jupyter (jupyter.org). Baixe estes notebooks e faça o upload no jupyter.
 
@@ -45,13 +45,19 @@ Via synaptic
 digite julia e veja se mostra a versão 0.4.2 ou superior. Se não, instale via PPA
 
 Via terminal
+
 	sudo add-apt-repository ppa:staticfloat/juliareleases
+	
 	sudo add-apt-repository ppa:staticfloat/julia-deps
+	
 	sudo apt-get update
+	
 	sudo apt-get install julia
     
 Adicionando pacotes no terminal
+
 	$julia
+	
 	$julia> Pkg.add(“IJulia”)
     
 Se ocorrer:
@@ -59,6 +65,7 @@ Se ocorrer:
 Failed to execute "git ls-remote --tags --heads git://github.com/twbs/bootstrap-sass.git", exit code of #128 fatal: unable to connect to github.com: github.com[0: 192.30.252.130]: errno=Connection timed out
 
 isso acontece em funcao do firewall. Use:
+
 	$ git config --global url."https://".insteadOf git://
     
 se ocorrer o erro:
@@ -73,6 +80,7 @@ significa que ha dependencia de algum recurso de compilação. Instale o “Code
 Ou 
 
 	$sudo apt-get update && apt-get upgrade
+	
 	$sudo apt-get install build-essential
     
 pacotes importantes
