@@ -1,0 +1,6 @@
+.CodeMirror pre {
+  white-space: pre;
+}
+.CodeMirror-lines {
+  overflow: auto;
+}
