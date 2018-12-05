@@ -1,1 +1,1 @@
-Acesse: github.com/julialangpt/juliatutorial_PT_BR
+Acesse: https://github.com/JuliaLangPt/tutorial_PT_BR
